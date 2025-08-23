@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: var(--blue-950);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao {
+    background-color: var(--blue-900);
+    width: 550px;
+    height: 350px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.gerador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.gerador p {
+    color: var(--blue-200);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.gerador span {
+    color: var(--green-300);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.botao {
+    padding-top: 20px;
+
+}
+
+.botao .gerar-conselho:hover {
+    box-shadow: 0px 0px 25px var(--green-300);
+}
+
+.botao .gerar-conselho {
+    background-color: var(--green-300);
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+}
+
+@media (max-width: 600px) {
+    .cartao {
+        max-width: 355px;
+        padding: 20px;
+    }
+
+    .gerador p{
+        font-size: 25px;
+    }
+    
+    span {
+        padding-top: 20px;
+    }
+
+    .botao {
+        padding-top: 10px;
+    }
+}
