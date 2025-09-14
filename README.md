@@ -1,4 +1,4 @@
-# Advice Generator APP Main
+# Advice Generator APP Main (Frontend Mentor)
 Um projeto do frontend mentor. Este é meu segundo projeto feito no frontend mentor, sugerido pelo curso como exercício de HTML e CSS avançado.
 
 ## Sobre
